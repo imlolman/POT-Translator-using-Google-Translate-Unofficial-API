@@ -59,21 +59,21 @@ const translateFile = async (filename_to_translate, lang) => {
 
 async function translateFiles() {
     await translateFile(filename_to_translate, 'en').catch(console.error);
-    // await translateFile(filename_to_translate, 'hi').catch(console.error);
-    // await translateFile(filename_to_translate, 'fr').catch(console.error);
-    // await translateFile(filename_to_translate, 'es').catch(console.error);
-    // await translateFile(filename_to_translate, 'ja').catch(console.error);
-    // await translateFile(filename_to_translate, 'de').catch(console.error);
-    // await translateFile(filename_to_translate, 'ru').catch(console.error);
-    // await translateFile(filename_to_translate, 'pt').catch(console.error);
-    // await translateFile(filename_to_translate, 'ar').catch(console.error);
-    // await translateFile(filename_to_translate, 'it').catch(console.error);
-    // await translateFile(filename_to_translate, 'pl').catch(console.error);
-    // await translateFile(filename_to_translate, 'id').catch(console.error);
-    // await translateFile(filename_to_translate, 'ko').catch(console.error);
-    // await translateFile(filename_to_translate, 'zn').catch(console.error);
-    // await translateFile(filename_to_translate, 'tr').catch(console.error);
-    // await translateFile(filename_to_translate, 'ur').catch(console.error);
+    await translateFile(filename_to_translate, 'hi').catch(console.error);
+    await translateFile(filename_to_translate, 'fr').catch(console.error);
+    await translateFile(filename_to_translate, 'es').catch(console.error);
+    await translateFile(filename_to_translate, 'ja').catch(console.error);
+    await translateFile(filename_to_translate, 'de').catch(console.error);
+    await translateFile(filename_to_translate, 'ru').catch(console.error);
+    await translateFile(filename_to_translate, 'pt').catch(console.error);
+    await translateFile(filename_to_translate, 'ar').catch(console.error);
+    await translateFile(filename_to_translate, 'it').catch(console.error);
+    await translateFile(filename_to_translate, 'pl').catch(console.error);
+    await translateFile(filename_to_translate, 'id').catch(console.error);
+    await translateFile(filename_to_translate, 'ko').catch(console.error);
+    await translateFile(filename_to_translate, 'zn').catch(console.error);
+    await translateFile(filename_to_translate, 'tr').catch(console.error);
+    await translateFile(filename_to_translate, 'ur').catch(console.error);
 }
 
 translateFiles().catch(console.error);
