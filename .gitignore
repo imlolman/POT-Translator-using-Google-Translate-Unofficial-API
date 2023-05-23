@@ -1,0 +1,5 @@
+node_modules
+input/*
+output/*
+!output/.keep_this_folder
+!input/.keep_this_folder
