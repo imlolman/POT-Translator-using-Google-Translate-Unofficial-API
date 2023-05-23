@@ -7,3 +7,6 @@
 3. Save the pot file to be translated in input folder (make sure the file extension is .pot)
 4. Allow generate.sh to be executable using `chmod +x generate.sh`
 5. Run the script using `generate.sh`
+
+## Special Thanks
+- [google-translate-api-browser](https://github.com/cjvnjde/google-translate-api-browser)
